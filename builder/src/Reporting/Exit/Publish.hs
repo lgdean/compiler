@@ -126,7 +126,7 @@ toReport exit =
         ( D.fillSep $
             [ "To", "publish", "a", "package,", "your", "elm.json", "must"
             , "have", "a", D.dullyellow "\"summary\"", "field", "that", "gives"
-            , "a", "consice", "overview", "of", "your", "project."
+            , "a", "concise", "overview", "of", "your", "project."
             ]
         )
         [ D.reflow $
